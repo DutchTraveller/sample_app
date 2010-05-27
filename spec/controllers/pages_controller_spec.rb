@@ -10,7 +10,6 @@ describe PagesController do
 
 
   describe "GET 'home'" do
-    class PagesController < ApplicationController
     def home
       @title = "Home"
     end
